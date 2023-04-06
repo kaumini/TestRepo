@@ -1,6 +1,6 @@
 [package]
 org = "KauminiGunasinghe"
-name = "test_autodeletion"
+name = "test_deletion"
 version = "1.0.0"
 distribution = "2201.3.0-rc3"
 
