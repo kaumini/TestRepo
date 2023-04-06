@@ -1,9 +1,0 @@
-[package]
-org = "KauminiGunasinghe"
-name = "comppp1"
-version = "1.0.0"
-export = ["comppp1"]
-distribution = "2201.3.1"
-
-[build-options]
-observabilityIncluded = true
