@@ -1,6 +1,6 @@
 [package]
 org = "KauminiGunasinghe"
-name = "testcomp1"
+name = "testcomponent"
 version = "1.0.0"
 distribution = "2201.3.0-rc3"
 

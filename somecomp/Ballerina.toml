@@ -1,0 +1,8 @@
+[package]
+org = "KauminiGunasinghe"
+name = "somecomp"
+version = "1.0.0"
+distribution = "2201.3.0-rc3"
+
+[build-options]
+observabilityIncluded = true

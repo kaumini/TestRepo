@@ -3,10 +3,20 @@ import ballerina/http;
 # A service representing a network-accessible API
 # bound to port `9090`.
 @display {
-	label: "testcomp1",
-	id: "testcomp1-fe2e6b88-7c8a-40fc-ba2a-ff5bcd609fb8"
+    label: "somecomp",
+    id: "somecomp-5ac0810e-da5f-46b4-9114-f6c5dfc2b28f"
 }
 service / on new http:Listener(9090) {
+    @display {
+        label: "testcomppp2",
+        id: "testcomppp2-a535bbbc-5cb0-4f26-b4e9-d3312c11a027"
+    }
+    http:Client testcomppp2Client;
+
+    function init() returns error? {
+        self.testcomppp2Client = check new ("");
+
+    }
 
     # A resource for generating greetings
     # + name - the input string name
