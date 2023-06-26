@@ -1,8 +1,0 @@
-[package]
-org = "KauminiGunasinghe"
-name = "testgit"
-version = "1.0.0"
-distribution = "2201.6.0"
-
-[build-options]
-observabilityIncluded = true
